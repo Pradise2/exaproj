@@ -5,7 +5,12 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID."
+        }
+      ]
     ],
     "name": "test",
     "slug": "test"
