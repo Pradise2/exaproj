@@ -13,6 +13,14 @@
       ]
     ],
     "name": "test",
-    "slug": "test"
+    "slug": "test",
+    "extra": {
+      "eas": {
+        "projectId": "9eca57c6-7a1f-4625-ae16-45cf7252e8e9"
+      }
+    },
+    "android": {
+      "package": "com.elikai.test"
+    }
   }
 }

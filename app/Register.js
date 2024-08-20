@@ -55,8 +55,8 @@ const Register = () => {
           username,
         });
         console.log('Biometric Data:', biometricData);
-console.log('Username:', username);
-console.log('Matric Number:', matricNumber);
+        console.log('Username:', username);
+        console.log('Matric Number:', matricNumber);
 
   
         Alert.alert('Registration Successful');
