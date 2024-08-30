@@ -39,7 +39,6 @@ const Register = () => {
           return;
         }
   
-        // Check if the biometric data already exists
         const exists = await checkBiometricData(biometricData);
   
         if (exists) {
